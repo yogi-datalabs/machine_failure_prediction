@@ -37,4 +37,4 @@ if st.button("Predict Failure"):
     prediction = model.predict(input_data)[0]
     result = "Machine Failure" if prediction == 1 else "No Failure"
     st.subheader("Prediction Result:")
-    st.success(f"The model predicts: **{result}**") 
+    st.success(f"The model predicts: **{result}**")  
